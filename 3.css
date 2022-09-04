@@ -1,0 +1,40 @@
+/* Thứ tự ưu tiên trong CSS:
+    1. !important
+    2. internal (CSS inside HTML)
+    3. external (CSS outside HTML):
+    3.1. id
+    3.2. class
+    3.3. tagName */
+
+h1 {
+    color: red;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    font-size: 32px;
+    text-align: center;
+}
+
+.class {
+    color: red;
+    font-size: 32px;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+div {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
