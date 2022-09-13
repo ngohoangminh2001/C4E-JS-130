@@ -124,7 +124,7 @@
     transition: all 1s linear;
 }
 
-.button:hover {
+#delete:hover {
     background-color: yellow;
     color: black;
 }
