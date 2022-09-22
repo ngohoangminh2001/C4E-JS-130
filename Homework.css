@@ -1,0 +1,150 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    background-color: rgb(220, 218, 218);
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(188, 188, 20);
+    margin-left: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#hello-film {
+    margin-left: 10px;
+}
+
+#home {
+    margin-left: 750px;
+}
+
+#top-film {
+    margin-left: 50px;
+}
+
+#categories {
+    margin-left: 50px;
+}
+
+#pink {
+    background-color: plum;
+    height: 270px;
+    width: 550px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(210, 110, 210);
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.share-download-watch {
+    width: 550px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#share {
+    background-color: pink;
+    border: 1px solid pink;
+    width: 100px;
+}
+
+#download {
+    background-color: yellow;
+    border: 1px solid yellow;
+    width: 100px;
+}
+
+#watch {
+    background-color: rgb(120, 120, 220);
+    border: 1px solid rgb(78, 78, 164);
+    width: 300px;
+}
+
+#share,
+#download,
+#watch,
+#war,
+#drama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#green {
+    color: rgb(25, 200, 25);
+}
+
+.war-drama {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+}
+
+#war, #drama {
+    border: 1px solid black;
+    height: 35px;
+}
+
+td {
+    padding: 0 10px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.description, .description-title {
+    margin: 20px 40px;
+}
+
+#description-content {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+.actors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    width: 300px;
+}
+
+.blue-area {
+    background-color: rgb(172, 172, 216);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.actor {
+    text-align: center;
+}
