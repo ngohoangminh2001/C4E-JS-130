@@ -1,0 +1,14 @@
+var a = [];
+for (var i = 0; i < 10; i++) a.push(i + 1);
+console.log(a);
+console.log("\n");
+console.log(a[a.length - 1]);
+console.log("\n");
+for (const v of a) if (v < 5) console.log(v);
+console.log("\n");
+for (const v of a) if (v % 3 == 0) console.log(v);
+console.log("\n");
+a.forEach((value, index) => { if (value == 5) console.log(value + " (index = " + index + ")") });
+var sum = 0;
+for (const v of a) sum += v;
+if (sum > 15) alert("[" + a + "]");
