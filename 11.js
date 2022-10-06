@@ -560,14 +560,3 @@ for (const career of result)
 log(finalResult);
 for (const career of finalResult)
     log("Job == " + career + ": " + users.filter(obj => obj.job == career).length);
-const storage =
-{
-    name: 'Van Van Ba Cham',
-    address: 'Ha Noi',
-    owner: 'Nguyen Ngoc Huyen',
-    items:
-    [
-        {id: 1, name: 'product 1', category: 'category 1', price: 10},
-        {id: 2, name: 'product 2', category: 'category 2', price: 20},
-    ]
-}
