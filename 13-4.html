@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./13-4.js"></script>
+    <link rel="stylesheet" href="./13-4.css">
+</head>
+
+<body>
+    <h1>Create an account</h1>
+    <table>
+        <tr>
+            <td><b>Full name <span class="required">*</span> </b></td>
+            <td><input id="name"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b class="required" id="invalid-name"></b></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Age</b></td>
+            <td><input id="age"></td>
+        </tr>
+        <tr>
+            <td><b>Address</b></td>
+            <td><input id="address"></td>
+        </tr>
+        <tr>
+            <td><b>Email <span class="required">*</span> </b></td>
+            <td><input id="email"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b class="required" id="invalid-email"></b></td>
+        </tr>
+        <tr>
+            <td><b>Password <span class="required">*</span> </b></td>
+            <td><input id="password" type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b class="required" id="invalid-password"></b></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="register">Register</button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
